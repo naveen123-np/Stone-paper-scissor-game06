@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>stone paper scissor game</title>
+</head>
+<body>
+    <h1> Lets play stone paper scissor </h1>
+    <div class="choices">
+        <div class="choice" id="stone">
+<!-- <img src="file (2).png" alt="">  -->
+<span>✊</span>
+        </div>
+        <div class="choice" id="paper">
+<!-- <img src="file (3).png" alt=""> -->
+<span>✋</span>
+        </div>
+        <div class="choice" id="scissor">
+<!-- <img src="file (4).png" alt=""> -->
+ <span>🤞</span>
+        </div>
+    </div>
+    
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score"> 0</p>
+            <p id="user-move"> YOU</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p id="comp-move"> COMP</p>
+        </div>
+    </div>
+    <div class="msg-container">
+       <p class="display-move"></p>
+        <button id="msg">
+            play your move
+        </button>
+       <p class="auto-clear-btn"> <button class="autoplay" onclick="autoplay();"> Auto play</button>
+        <button class="display-clear" onclick="displayClear()"> Clear </button></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
