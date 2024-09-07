@@ -38,6 +38,7 @@ h1{
     line-height: 2;
     background-color: white;
     border-radius: 50%;
+    cursor:pointer;
 }
 img{
     height: 100%;
@@ -86,6 +87,7 @@ img{
     font-size: 23px;
     color: black;
     background-color: green;
+    cursor:pointer;
 }
 .display-move{
     height: 50px;
